@@ -29,10 +29,10 @@ opcion = input('''Ingrese una opción para Jugar!
         ''')
 
 # 1. validar opcion
-validate(['0', '1'], opcion)
+opcion_2 = validate(['0', '1'], opcion)
 
 # 2. Definir el comportamiento de Salir
-if opcion == '0':
+if opcion_2 == '0':
     print('Nos vemos pronto!')
     time.sleep(2)
     os.system(op_sys)
